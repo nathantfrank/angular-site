@@ -7,9 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProfilePicComponent implements OnInit {
 
-  @Input()
-  alt: string;
-
   profilePicPath = '../assets/images/profile_pic.jpg';
 
   constructor() { }

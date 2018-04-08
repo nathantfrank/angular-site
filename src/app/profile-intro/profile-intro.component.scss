@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+
+.profile-intro-container {
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  .profile-intro-banner {
+    background-color: lightgray;
+    padding: 1%;
+
+    .profile-intro-name {
+      font-size: 3em;
+    }
+
+    .profile-intro-text {
+      font-size: 2.25em;
+    }
+  }
+}

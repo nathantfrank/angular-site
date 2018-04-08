@@ -1,8 +1,9 @@
 <div class="app-content" fxLayout="column" fxLayoutAlign="start stretch">
-  <div class="about-me-title" fxFlex="20%">
-    Welcome to {{ name }}'s Website!
+  <div class="toolbar" fxFlex="10%">
+    <app-toolbar owner="Nathan Frank"></app-toolbar>
   </div>
   <div class="about-me-content" fxFlexFill>
-    <app-profile-pic (alt)="name"></app-profile-pic>
+    <app-profile-intro></app-profile-intro>
+    <app-profile-content></app-profile-content>
   </div>
 </div>

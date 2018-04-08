@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfilePicComponent } from '../profile-pic/profile-pic.component';
+import { ToolbarComponent } from '../toolbar/toolbar.component';
+import { ProfileIntroComponent } from '../profile-intro/profile-intro.component';
+import { ProfileContentComponent } from '../profile-content/profile-content.component';
 
 @Component({
   selector: 'app-about-me',
@@ -7,8 +9,6 @@ import { ProfilePicComponent } from '../profile-pic/profile-pic.component';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-
-  name = 'Nathan Frank';
 
   constructor() { }
 
