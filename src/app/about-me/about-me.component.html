@@ -4,6 +4,13 @@
   </div>
   <div class="about-me-content" fxFlexFill>
     <app-profile-intro></app-profile-intro>
-    <app-profile-content></app-profile-content>
+    <div class="about-me-content-body" fxLayout="row" fxLayoutAlign="space-evenly stretch">
+      <div fxFlex="40%" fxFlexFill>
+        <app-profile-content></app-profile-content>
+      </div>
+      <div>
+        <app-contact-links></app-contact-links>
+      </div>
+    </div>
   </div>
 </div>
