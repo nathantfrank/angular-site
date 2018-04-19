@@ -1,8 +1,13 @@
+@import 'profile-pic-theme';
+
+@include profile-pic-theme($app-theme);
+
 .profile-pic-container {
 
+  padding: .5em;
+
   .profile-pic {
-    background-color: whitesmoke;
-    border: 1px solid whitesmoke;
+    background-color: white;
     border-radius: 50%;
     padding: 5px;
     width: 15%;

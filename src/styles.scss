@@ -1,18 +1,8 @@
 @import '~@angular/material/theming';
-@import "theme.scss";
+@import "src/theme.scss";
 
 $fa-font-path: "../node_modules/font-awesome/fonts";
 @import '~font-awesome/scss/font-awesome.scss';
-
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
-@include mat-core();
-
-// Include theme styles for core and each component used in your app.
-// Alternatively, you can import and @include the theme mixins for each component
-// that you are using.
-@include angular-material-theme($candy-app-theme);
 
 html, body {
     height: 100%;

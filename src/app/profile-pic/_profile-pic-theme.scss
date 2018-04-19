@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@import 'src/theme';
+
+@mixin profile-pic-theme($theme) {
+  $primary: map-get($theme, primary);
+
+  .profile-pic-container {
+
+    .profilile-pic{
+      border: 1px solid mat-color($primary);
+      background-color: white;
+    }
+  }
+}

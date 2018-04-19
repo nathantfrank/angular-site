@@ -1,2 +1,7 @@
 @import '~@angular/material/theming';
 
+.toolbar-container {
+  .mat-toolbar {
+    max-height: 2.5em;
+  }
+}

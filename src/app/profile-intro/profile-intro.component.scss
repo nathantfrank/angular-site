@@ -1,12 +1,12 @@
-@import '~@angular/material/theming';
+@import 'profile-intro-theme.scss';
+
+@include profile-intro-theme($app-theme);
 
 .profile-intro-container {
-  padding-top: 1%;
-  padding-bottom: 1%;
 
   .profile-intro-banner {
-    background-color: lightgray;
-    padding: 1%;
+    padding-top: .25em;
+    padding-bottom: .25em;
 
     .profile-intro-name {
       font-size: 3em;

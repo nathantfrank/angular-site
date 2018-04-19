@@ -1,9 +1,8 @@
-<div class="app-content" fxLayout="column" fxLayoutAlign="start stretch">
-  <div class="toolbar" fxFlex="10%">
-    <app-toolbar owner="Nathan Frank"></app-toolbar>
-  </div>
-  <div class="about-me-content" fxFlexFill>
-    <app-profile-intro></app-profile-intro>
+<div class="app-content" fxLayout="column" fxLayoutAlign="space-between stretch" fxLayoutGap="1em">
+  <app-toolbar owner="NATHAN FRANK"></app-toolbar>
+  <div class="about-me-content" fxFlex="85%">
+    <div fxLayout="column" fxLayoutAlign="space-around stretch" fxLayoutGap="1em">
+      <app-profile-intro></app-profile-intro>
     <div class="about-me-content-body" fxLayout="row" fxLayoutAlign="space-evenly stretch">
       <div fxFlex="40%" fxFlexFill>
         <app-profile-content></app-profile-content>
@@ -12,5 +11,9 @@
         <app-contact-links></app-contact-links>
       </div>
     </div>
+    </div>
+  </div>
+  <div class="footer">
+    <app-footer></app-footer>
   </div>
 </div>

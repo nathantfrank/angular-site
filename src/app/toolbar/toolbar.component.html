@@ -1,3 +1,10 @@
-<mat-toolbar color="primary" class="header">
-  <button mat-button>{{owner}}</button>
-</mat-toolbar>
+<div class="toolbar-container">
+  <mat-toolbar color="primary" class="header" fxLayout="row" fxLayoutAlign="space-between center">
+    <button mat-button>{{owner}}</button>
+    <div class="quick-links-group">
+        <button mat-button>ABOUT ME</button>
+        <button mat-button>TBD</button>
+    </div>
+  </mat-toolbar>
+</div>
+

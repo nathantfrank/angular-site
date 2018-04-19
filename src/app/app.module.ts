@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RouterModule, Routes, Router } from '@angular/router';
@@ -15,6 +16,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ProfileIntroComponent } from './profile-intro/profile-intro.component';
 import { ProfileContentComponent } from './profile-content/profile-content.component';
 import { ContactLinksComponent } from './contact-links/contact-links.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutMeComponent },
@@ -30,7 +32,8 @@ const appRoutes: Routes = [
     ToolbarComponent,
     ProfileIntroComponent,
     ProfileContentComponent,
-    ContactLinksComponent
+    ContactLinksComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
