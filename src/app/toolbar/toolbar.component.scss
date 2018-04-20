@@ -1,7 +1,14 @@
-@import '~@angular/material/theming';
+@import "_toolbar-theme";
+
+@include toolbar-theme($app-theme);
 
 .toolbar-container {
-  .mat-toolbar {
+  .header {
     max-height: 2.5em;
+
+    .home-button {
+      font-weight: bold;
+      font-size: .85em;
+    }
   }
 }

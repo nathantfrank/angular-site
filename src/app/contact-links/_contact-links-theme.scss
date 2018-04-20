@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+@import 'src/theme';
+
+@mixin contact-links-theme($theme) {
+  $primary: map-get($theme, primary);
+
+  .contact-links-container {
+    .contact-links {
+      .icon-link {
+        mat-icon {
+          color: mat-color($primary, darker);
+        }
+      }
+    }
+  }
+}

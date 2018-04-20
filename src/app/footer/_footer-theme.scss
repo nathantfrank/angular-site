@@ -1,0 +1,19 @@
+@import '~@angular/material/theming';
+@import 'src/theme';
+
+@mixin footer-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+
+  .footer-container {
+    background-color: mat-color($accent, 50);
+
+    .contact-links {
+      .icon-link {
+        mat-icon {
+          color: mat-color($primary, darker);
+        }
+      }
+    }
+  }
+}

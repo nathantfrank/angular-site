@@ -3,12 +3,13 @@
 
 @mixin profile-pic-theme($theme) {
   $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
 
   .profile-pic-container {
 
-    .profilile-pic{
-      border: 1px solid mat-color($primary);
-      background-color: white;
+    .profile-pic {
+      border: .25em solid mat-color($primary);
+      background-color: mat-color($accent, 50);
     }
   }
 }

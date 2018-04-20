@@ -2,9 +2,9 @@
 @import 'src/theme';
 
 @mixin profile-intro-theme($theme) {
-  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
 
   .profile-intro-container {
-    background-color: mat-color($primary);
+    background-color: mat-color($accent, 50);
   }
 }
