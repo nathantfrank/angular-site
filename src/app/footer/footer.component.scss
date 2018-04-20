@@ -1,0 +1,15 @@
+@import "_footer-theme";
+
+@include footer-theme($app-theme);
+
+.footer-container {
+  padding: 12px;
+
+  .contact-links {
+    .icon-link {
+      mat-icon {
+        font-size: 1.25em;
+      }
+    }
+  }
+}

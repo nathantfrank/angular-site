@@ -1,0 +1,19 @@
+@import '_profile-intro-theme.scss';
+
+@include profile-intro-theme($app-theme);
+
+.profile-intro-container {
+
+  .profile-intro-banner {
+    padding-top: .25em;
+    padding-bottom: .25em;
+
+    .profile-intro-name {
+      font-size: 3em;
+    }
+
+    .profile-intro-text {
+      font-size: 2.25em;
+    }
+  }
+}

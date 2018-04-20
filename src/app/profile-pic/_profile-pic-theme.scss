@@ -1,0 +1,15 @@
+@import '~@angular/material/theming';
+@import 'src/theme';
+
+@mixin profile-pic-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+
+  .profile-pic-container {
+
+    .profile-pic {
+      border: .25em solid mat-color($primary);
+      background-color: mat-color($accent, 50);
+    }
+  }
+}

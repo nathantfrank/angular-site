@@ -1,0 +1,14 @@
+@import '_profile-pic-theme';
+
+@include profile-pic-theme($app-theme);
+
+.profile-pic-container {
+
+  padding: .5em;
+
+  .profile-pic {
+    border-radius: 50%;
+    padding: 5px;
+    width: 15%;
+  }
+}

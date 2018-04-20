@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+@import 'src/theme';
+
+@mixin profile-intro-theme($theme) {
+  $accent: map-get($theme, accent);
+
+  .profile-intro-container {
+    background-color: mat-color($accent, 50);
+  }
+}
